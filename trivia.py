@@ -7,7 +7,7 @@ def cuestionario():
     respuesta2= int(input("Cuantas patas tiene una aranha?: ").lower())
     respuesta3= int(input("Cuanto es 2 + 2? : ").lower())
     respuesta4= input("Cual es el pokemon legendario que lleva el numero uno?:  ").lower()
-
+    contador = 0
     if respuesta1 == "Leo Dicaprio":
         contador +=1
     else:
